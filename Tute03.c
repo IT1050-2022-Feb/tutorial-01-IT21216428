@@ -21,9 +21,8 @@ int main() {
 	
   for(i = 1; i <= no; i++)
   {
-    printf("Enter a number: ");//prompt enter a no
-	  scanf("%d", &val);//read the no
-    sum += val;
+    
+    sum += i;
 
   }
   
